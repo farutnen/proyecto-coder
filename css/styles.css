@@ -25,39 +25,30 @@ h1{
 footer{
     text-align: center;
 }
-nav{
-    background-color: gray;
-    text-align: center;
-}
+
 .estrellas p, p i{
     text-align: center;
 }
 nav a{
-    font-size: 18px;
-    color: black;
+    font-size: 24px;
+    color: white;
     text-decoration: none;
-    display:inline-block;
-    width: 10%;
     padding: 20px;
-    border-right: 2px solid;
+    margin: 20px;
 }
+
 button {
     margin: 8px;
     padding: 10px;
-    border-radius: 20px;
-    background-color: gray;
-    box-shadow: 2px ;
+
 }
 button a{
     text-decoration: none;
-    color: black;
-}
-button.promo{
-    background-color:white;
+    color: white;
 }
 
-a:last-child{
-    border-right: 0;
+button .promo{
+    color: black;
 }
 
 footer{
@@ -84,6 +75,7 @@ main p{
     text-align: center;
     
 }
+
 .principal, destacado, menu{
     display: flex;
     flex-direction: row;
@@ -99,7 +91,7 @@ section{
 }
 .img-responsive{
     max-width: 100%;
-    padding: 10%;
+    align-items: center;
 }
 .card{
     display:flex;
