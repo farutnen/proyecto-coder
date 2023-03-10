@@ -1,9 +1,26 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
+h1{
+    text-align: center;
+}
 
+
+/*   nav   */
+nav a{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+}
+
+.nav-item{
+    color: white;
+}
 ul{
     list-style: none;
     font-size: 0;
@@ -18,40 +35,58 @@ ul ul li{
 ul li:hover ul{
     display: block;
 }
-h1{
-    text-align: center;
-}
 
-footer{
-    text-align: center;
-}
+/*  body  */
+body{
+    font-family: 'Roboto', sans-serif;
+}   
+/*  cards  */
 
+.container{
+    padding: 100px;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.estrellas{
+    padding: 0px 25% 0px 25%;
+    text-align: center;
+    
+}
 .estrellas p, p i{
     text-align: center;
-}
-nav a{
-    font-size: 24px;
-    color: white;
-    text-decoration: none;
-    padding: 20px;
-    margin: 20px;
+    
 }
 
-button {
-    margin: 8px;
-    padding: 10px;
 
-}
+/*  img   */
+.img-responsive{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}  
+/*  buttons  */
 button a{
     text-decoration: none;
     color: white;
 }
 
-button .promo{
-    color: black;
+
+.botones{
+    display: flex;
+    justify-content: center;
+}
+.botones .menu{
+    margin-left: 15px;
+    background-color:grey;
 }
 
+/* footer  */
+
 footer{
+    text-align: center;
     background-color:gray;
     padding-bottom: 10%;
 }
@@ -59,47 +94,6 @@ footer p{
     padding-top: 120px;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-}
-
-main p{
-    text-align: center;
-}
-.botones{
-    margin: 25px;
-
-}
-.estrellas{
-    inline-size: auto;
-    text-align: center;
-    
-}
-
-.principal, destacado, menu{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin: 10px;
-}
-.principal, section{
-    padding: 20px 60px ;
-    
-}
-section{
-    padding: 5%;
-}
-.img-responsive{
-    max-width: 100%;
-    align-items: center;
-}
-.card{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    background-color: grey;
-    border: 5px solid #fff;
-}
 
 
 /* formulario*/
@@ -159,5 +153,25 @@ textarea{
 formulario p{
     margin: 24px;
     padding: 30%;
+
+}
+
+
+
+/*media  queries*/
+@media(max-width:766px){
+    .container{
+        display:grid;
+    }
+    .logo-baja{
+        display: block;
+        display:none;
+    }
+    .img-responsive{
+        width:100px;
+    }
+    p{
+        text-align: center;
+    }
 
 }
