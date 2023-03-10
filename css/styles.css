@@ -40,6 +40,9 @@ ul li:hover ul{
 body{
     font-family: 'Roboto', sans-serif;
 }   
+.arroba{
+    font-size: 30px;
+}
 /*  cards  */
 
 .container{
@@ -56,8 +59,7 @@ body{
     
 }
 .estrellas p, p i{
-    text-align: center;
-    
+    text-align: center; 
 }
 
 
@@ -162,6 +164,9 @@ formulario p{
 @media(max-width:766px){
     .container{
         display:grid;
+    }
+    .arroba{
+        display:none;
     }
     .logo-baja{
         display: block;
