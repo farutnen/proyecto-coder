@@ -46,8 +46,19 @@ body {
   padding: 15%;
 }
 
-.container .menus {
-  padding: auto;
+.contacto {
+  padding: 5%;
+}
+.contacto .info {
+  padding-left: 5%;
+}
+
+.container {
+  padding: 10%;
+}
+
+.menus {
+  padding: 10%;
 }
 
 .row {
@@ -55,11 +66,11 @@ body {
   align-items: center;
 }
 
-.estrellas {
+.centrado {
   padding: 0px 25% 0px 25%;
   text-align: center;
 }
-.estrellas p, .estrellas i {
+.centrado p, .centrado i {
   text-align: center;
 }
 
@@ -80,8 +91,14 @@ body {
 
 /*  buttons  */
 button a {
+  display: flex;
   text-decoration: none;
   color: white;
+  text-align: center;
+}
+
+.btn {
+  align-items: center;
 }
 
 .botones {

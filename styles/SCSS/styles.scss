@@ -45,17 +45,24 @@ body{
     padding: 15%;
 }
 
-.container{
-    
-    .menus{
-        padding: auto;
+.contacto{
+    padding: 5%;
+    .info{
+        padding-left: 5%;
     }
 }
+.container{
+    padding: 10%;
+}
+.menus{
+        padding: 10%;
+    }
+
 .row{
     display: flex;
     align-items: center;
 }
-.estrellas{
+.centrado{
     padding: 0px 25% 0px 25%;
     text-align: center;
     p, i{
@@ -81,9 +88,17 @@ body{
 }
 
 /*  buttons  */
-button a{
+button 
+{   
+    a{
+    display: flex;
     text-decoration: none;
     color: white;
+    text-align: center;
+    }
+}
+.btn {
+    align-items: center;
 }
 .botones{
     display: flex;
