@@ -1,10 +1,12 @@
+
 /* formulario*/
 form{
 	width:300px;
 	padding:16px;
 	border-radius:10px;
-	margin:auto;
-	background-color:#ccc;
+	margin: auto;
+    color: $blanco;
+	background-color: $fondo;
     
     @include tablet{
         font-size: 12px;
@@ -34,7 +36,7 @@ form{
         padding:3px 10px;
         border:1px solid #f6f6f6;
         border-radius:3px;
-        background-color:#f6f6f6;
+        background-color: $blanco;
         margin:8px 0;
         display:inline-block;
     }
@@ -45,7 +47,7 @@ form{
         border:1px solid #000;
         border-radius:5px;
         display:block;
-        color:#fff;
+        color:$blanco;
         background-color:#000;
         &:hover{
             cursor:pointer;
@@ -58,7 +60,7 @@ textarea{
 	height:100px;
 	border:1px solid #f6f6f6;
 	border-radius:3px;
-	background-color:#f6f6f6;			
+	background-color: $blanco;			
 	margin:8px 0;
 	/*resize: vertical | horizontal | none | both*/
 	resize:none;

@@ -1,6 +1,4 @@
-
 /*   nav   */
-
 nav {
     a{
     font-size: 16px;
@@ -9,7 +7,7 @@ nav {
     margin: 15px;
     color: dimgrey;
     &:hover { 
-        color:white;
+        color:$blanco;
     }
     @include mobile{
         padding: 0px;
