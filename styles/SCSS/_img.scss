@@ -1,0 +1,20 @@
+/*  img   */
+.img-responsive{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+
+    @include tablet{
+        width:100px;
+    }
+}
+.card{
+    .body{
+        padding: 5%;
+    }
+    p{
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+}

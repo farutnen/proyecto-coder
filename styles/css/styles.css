@@ -1,14 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-h1 {
-  text-align: center;
-  font-size: 1.5em;
-}
-
+/*media  queries*/
 /*   nav   */
 nav a {
   font-size: 16px;
@@ -28,7 +18,7 @@ nav ul ul {
 nav ul li {
   display: block;
 }
-nav ul li :hover ul {
+nav ul li:hover ul {
   display: block;
 }
 
@@ -56,6 +46,21 @@ body {
 .container {
   padding: 10%;
 }
+@media (max-width: 1024px) {
+  .container {
+    display: grid;
+  }
+}
+@media (max-width: 766px) {
+  .container {
+    display: grid;
+  }
+}
+@media screen and (max-width: ancho) {
+  .container {
+    flex-direction: column;
+  }
+}
 
 .menus {
   padding: 10%;
@@ -79,6 +84,11 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+@media (max-width: 1024px) {
+  .img-responsive {
+    width: 100px;
+  }
 }
 
 .card .body {
@@ -129,6 +139,22 @@ form {
   margin: auto;
   background-color: #ccc;
 }
+@media (max-width: 1024px) {
+  form {
+    font-size: 12px;
+    margin: 10%;
+  }
+}
+@media (max-width: 766px) {
+  form {
+    font-size: 12px;
+    margin: 0px 5px 5px 15px;
+    padding: 15px 15px 15px 20px;
+  }
+  form textarea {
+    padding: 10px;
+  }
+}
 form p {
   margin: 24px;
   padding: 30%;
@@ -157,7 +183,7 @@ form input[type=submit] {
   color: #fff;
   background-color: #000;
 }
-form input[type=submit] :hover {
+form input[type=submit]:hover {
   cursor: pointer;
 }
 
@@ -173,27 +199,24 @@ textarea {
   display: block;
 }
 
-/*media  queries*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
 @media (max-width: 1024px) {
-  .container {
-    display: grid;
-  }
-  .img-responsive {
-    width: 100px;
-  }
   p {
     text-align: center;
     font-size: 16px;
   }
-  form {
-    font-size: 12px;
-    margin: 10%;
-  }
 }
 @media (max-width: 766px) {
-  .container {
-    display: grid;
-  }
   .arroba {
     display: none;
   }
@@ -201,20 +224,9 @@ textarea {
     display: block;
     display: none;
   }
-  .img-responsive {
-    width: 100px;
-  }
   p {
     text-align: center;
     font-size: 12px;
-  }
-  form {
-    font-size: 12px;
-    margin: 0px 5px 5px 15px;
-    padding: 15px 15px 15px 20px;
-  }
-  form textarea {
-    padding: 10px;
   }
 }
 

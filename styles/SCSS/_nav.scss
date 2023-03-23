@@ -1,0 +1,26 @@
+
+/*   nav   */
+
+nav {
+    a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 15px;
+    }
+    ul{
+        list-style: none;
+        font-size: 0;
+        ul{
+            position: absolute;
+            display: none;
+        }
+        li{
+            display: block;
+            &:hover ul{
+                display: block;
+            }    
+        }   
+    }
+}

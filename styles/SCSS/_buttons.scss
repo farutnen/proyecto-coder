@@ -1,0 +1,22 @@
+
+/*  buttons  */
+button 
+{   
+    a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    }
+}
+.btn {
+    align-items: center;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    .menu{
+        margin-left: 15px;
+        background-color:grey;
+    }
+}
