@@ -1,11 +1,50 @@
 /*media  queries*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+@media (max-width: 1024px) {
+  p {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+@media (max-width: 766px) {
+  .arroba {
+    display: none;
+  }
+  .logo-baja {
+    display: block;
+    display: none;
+  }
+  p {
+    text-align: center;
+    font-size: 12px;
+  }
+}
 /*   nav   */
 nav a {
   font-size: 16px;
-  color: white;
   text-decoration: none;
   padding: 15px;
   margin: 15px;
+  color: dimgrey;
+}
+nav a:hover {
+  color: white;
+}
+@media (max-width: 766px) {
+  nav a {
+    padding: 0px;
+    margin: 0px;
+  }
 }
 nav ul {
   list-style: none;
@@ -197,37 +236,6 @@ textarea {
   /*resize: vertical | horizontal | none | both*/
   resize: none;
   display: block;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-h1 {
-  text-align: center;
-  font-size: 1.5em;
-}
-
-@media (max-width: 1024px) {
-  p {
-    text-align: center;
-    font-size: 16px;
-  }
-}
-@media (max-width: 766px) {
-  .arroba {
-    display: none;
-  }
-  .logo-baja {
-    display: block;
-    display: none;
-  }
-  p {
-    text-align: center;
-    font-size: 12px;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */

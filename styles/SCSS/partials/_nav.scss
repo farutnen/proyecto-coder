@@ -4,10 +4,17 @@
 nav {
     a{
     font-size: 16px;
-    color: white;
     text-decoration: none;
     padding: 15px;
     margin: 15px;
+    color: dimgrey;
+    &:hover { 
+        color:white;
+    }
+    @include mobile{
+        padding: 0px;
+        margin: 0px;
+}
     }
     ul{
         list-style: none;
