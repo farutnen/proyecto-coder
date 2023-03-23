@@ -1,0 +1,32 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 1.5em;
+}
+@include tablet{
+    p{
+        text-align: center;
+        font-size: 16px;
+
+    }
+}
+
+@include mobile{
+    .arroba{
+        display:none;
+    }
+    .logo-baja{
+        display: block;
+        display:none;
+    }
+    p{
+        text-align: center;
+        font-size: 12px;
+
+    }
+}
