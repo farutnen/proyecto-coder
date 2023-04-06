@@ -26,10 +26,11 @@
 </head>
 
 <body>
-    <div class="container-fuid">
+    <header class="container-fuid">
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark justify-content-center">
-            <a class="navbar-brand" href="../index.html"> <img src="../img/logo-baja.jpg" class="rounded-circle"
-                    width="50" height="50" alt="logo-ilaria" class="d-inline-block align-text-top"> @Ilaria Resto</a>
+            <a class="navbar-brand" href="../index.html"> <img src="../img/logo-baja.jpg"
+                    class="rounded-circle d-inline-block align-text-top" width="50" height="50" alt="logo-ilaria">
+                @Ilaria Resto</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -47,7 +48,7 @@
                         <a href="./menu.html" target="_blank">Menú</a>
                     </li>
                     <li class="nav-item">
-                        <a href="./sobre-nosotros.html" target="_blank">Sobre nosotros</a>
+                        <a href="./sobre-nosotros.html" target="_blank">Nosotros</a>
                     </li>
                     <li class="nav-item">
                         <a href="./contacto.html" target="_blank">Contacto</a>
@@ -55,7 +56,12 @@
                 </ul>
             </div>
         </nav>
-    </div>
+    </header>
+
+    <section class="QRFlotante">
+        <a href="https://linktr.ee/Ilariarestobar" class="btnQR" target="_blank"> <img
+                src="../img/qrcode_ilaria_menu.png" width="150" alt="codigo QR"> Escaneá la carta.</a>
+    </section>
 
     <main class="container contacto" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         <div class="row">
@@ -69,10 +75,10 @@
             <section class="col-md-8 col-lg-8 formulario" data-aos="fade-down" data-aos-easing="linear"
                 data-aos-duration="500">
 
-                <form action="#" target="" name="formDatosPersonales">
+                <form action="#" target="datos" name="formDatosPersonales">
 
                     <label for="nombre">Nombre: </label>
-                    <input type="text" name="nombre" id="nombre" placeholder="tu nombre acá"/>
+                    <input type="text" name="nombre" id="nombre" placeholder="tu nombre acá" />
 
                     <label for="apellidos">Apellidos:</label>
                     <input type="text" name="apellidos" id="apellidos" placeholder="tu Apellido acá" />
@@ -84,7 +90,7 @@
                     <input type="text" name="asunto" id="asunto" placeholder="titulo" />
 
                     <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres"
+                    <textarea name="mensaje" form="mensaje" placeholder="describe brevemente en menos de 300 carácteres"
                         maxlength="300"></textarea>
 
                     <input type="submit" name="enviar" value="enviar datos" />
@@ -97,8 +103,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
-        <!--AOS animation JS-->
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--AOS animation JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
@@ -107,18 +113,20 @@
             <div class="box">
                 <h4 class="ilresto">- ILARIA RESTO BAR -</h4>
                 <figure><img src="../img/logo-baja.jpg" width="30" height="30" alt="logo-ilaria"></figure>
-                
+
             </div>
             <div class="box">
                 <h4>ENLACES</h4>
-                <a href="./index.html">Inicio</a>
-                <a href="./pages/destacados.html">Destacados</a>
-                <a href="../pages/sobre-nosotros.html">Sobre nosotros</a>
-                <a href="./pages/contacto.html">Contacto</a>
+                <div class="links">
+                    <a href="../index.html">Inicio</a>
+                    <a href="../pages/destacados.html">Destacados</a>
+                    <a href="../pages/sobre-nosotros.html">Sobre nosotros</a>
+                    <a href="../pages/contacto.html">Contacto</a>
+                </div>
             </div>
             <div class="box">
                 <div class="rrss">
-                    
+
                     <h4>SÍGUENOS</h4>
                     <a href="https://www.https://www.facebook.com/ilariarestobar" class="fa fa-facebook"></a>
                     <a href="https://www.instagram.com/ilariarestobar/" class="fa fa-instagram"></a>

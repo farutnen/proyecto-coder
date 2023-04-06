@@ -26,10 +26,13 @@
 }
 .titulo{
     h2{
-        
+        font-weight: bolder;
         position: absolute;
         top: 5%;
         bottom: 60%;
-        margin: 10%;
+        margin: 15%;
+        @include tablet{
+            display: none;
+        }
     }
 }

@@ -13,7 +13,7 @@ h1 {
 @media (max-width: 1024px) {
   p {
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 @media (max-width: 766px) {
@@ -26,16 +26,30 @@ h1 {
   }
   p {
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 /*   nav   */
-navbar-brand img {
+.navbar-brand img {
   border-radius: 50%;
+  font-size: 16px;
+}
+
+.navbar {
+  width: 100%;
+  text-align: center;
+}
+@media (max-width: 766px) {
+  .navbar .colapse {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    align-content: flex-end;
+  }
 }
 
 nav a {
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
   padding: 15px;
   margin: 15px;
@@ -43,6 +57,7 @@ nav a {
 }
 nav a:hover {
   color: #fff;
+  transition-duration: 500ms;
   background-color: #5e765e;
   border-radius: 25px;
 }
@@ -50,6 +65,7 @@ nav a:hover {
   nav a {
     padding: 0px;
     margin: 20px;
+    justify-content: flex-end;
   }
 }
 nav ul {
@@ -80,6 +96,10 @@ body {
   color: #5e765e;
 }
 
+.ilresto {
+  font-weight: bold;
+}
+
 /*    cards   */
 .inicio {
   padding: 15%;
@@ -105,7 +125,7 @@ body {
     display: grid;
   }
 }
-@media screen and (max-width: ancho) {
+@media screen and (max-width: 526px) {
   .container {
     flex-direction: column;
   }
@@ -237,6 +257,7 @@ header {
   opacity: 15%;
   position: fixed;
   padding-top: 15px;
+  padding-left: 15px;
   width: 180px;
   height: 210px;
   bottom: 150px;
@@ -263,6 +284,21 @@ header {
     display: none;
   }
 }
+.contacto {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  justify-items: flex-end;
+  align-content: center;
+  flex-direction: row;
+}
+.contacto col {
+  align-content: center;
+}
+.contacto iframe {
+  width: 100%;
+}
+
 /*  img   */
 .img-responsive {
   display: flex;
@@ -291,10 +327,16 @@ header {
 }
 
 .titulo h2 {
+  font-weight: bolder;
   position: absolute;
   top: 5%;
   bottom: 60%;
-  margin: 10%;
+  margin: 15%;
+}
+@media (max-width: 1024px) {
+  .titulo h2 {
+    display: none;
+  }
 }
 
 /* footer */
@@ -303,6 +345,14 @@ header {
   background-color: #2f2f2f;
   text-align: center;
   z-index: index;
+}
+.footer .links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: space-around;
+  align-items: center;
 }
 .footer .grupo-enlaces {
   color: #5e765e;

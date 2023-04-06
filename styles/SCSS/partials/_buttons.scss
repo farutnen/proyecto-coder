@@ -64,6 +64,7 @@
     opacity: 15%;
     position: fixed;
     padding-top: 15px;
+    padding-left: 15px;
     width: 180px;
     height: 210px;
     bottom: 150px;
@@ -92,3 +93,17 @@
     }
 }
 
+.contacto{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-items: flex-end;
+    align-content: center;
+    flex-direction: row;
+    col{
+        align-content: center;
+    }
+    iframe{
+        width: 100%;
+    }
+}
