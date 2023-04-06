@@ -3,6 +3,7 @@
     display:flex;
     justify-content: center;
     width: 100%;
+    height: auto;
 
     @include tablet{
         width:100px;
@@ -16,5 +17,19 @@
         padding-left: 5%;
         padding-right: 5%;
 
+    }
+}
+.banner{
+    padding: 0%;
+    margin: 0%;
+    opacity: 50%;
+}
+.titulo{
+    h2{
+        
+        position: absolute;
+        top: 5%;
+        bottom: 60%;
+        margin: 10%;
     }
 }

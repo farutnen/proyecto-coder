@@ -1,22 +1,94 @@
 
 /*  buttons  */
-button 
-{   
-    a{
-    display: flex;
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;	
     text-decoration: none;
-    color: white;
-    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: $fondo;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px #999;
+    &:hover {
+        background-color: #3e8e41;
+        text-transform: uppercase;
+    }
+    &:active {
+        background-color: $fondo;
+        box-shadow: 0 3px #666;
+        transform: translateY(4px);
+    }
+    @include mobile{
+        font-size: 16px;
     }
 }
+.btnPromo {
+    color: $fondo;
+    background-color: $blanco;
+
+    &:hover {
+        background-color: #3e8e41; 
+        color:black;
+        text-transform: uppercase;
+    }
+    &:active {
+        background-color: $fondo;
+        box-shadow: 0 3px #666;
+        transform: translateY(4px);
+    }
+    @include mobile{
+        font-size: 16px;
+    }
+}
+
+
 .btn {
     align-items: center;
 }
 .botones{
+    text-decoration: none;
     display: flex;
-    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
     .menu{
+        background-color: $blanco;
         margin-left: 15px;
-        background-color:grey;
     }
 }
+.QRFlotante{
+    background-color: $fondo;
+    opacity: 15%;
+    position: fixed;
+    padding-top: 15px;
+    width: 180px;
+    height: 210px;
+    bottom: 150px;
+    right: 150px;
+    z-index: 1;
+    border-radius: 15px;
+    &:hover{
+        opacity: 100%;
+        transition-duration: 800ms;
+    }
+    a{
+        text-decoration: none;
+        color: $blanco;
+    }
+    .btnQR{
+
+        align-items: center;
+        justify-content: center;
+        top: 100px;
+
+    }
+}
+@include mobile{
+    .QRFlotante{
+        display: none;
+    }
+}
+

@@ -22,6 +22,9 @@
         flex-direction: column;
     }
 }
+header{
+    text-align: center;
+}
 .menus{
         padding: 10%;
     }
@@ -36,4 +39,41 @@
     p, i{
         text-align: center; 
     } 
+}
+
+.promos{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit, minmax(150px, 1fr));
+        gap: 16px;
+    }
+    @include mobile{
+        
+        .mobil{
+            display: none;
+        }
+    }
+    .img-promo{
+        color: $blanco;
+        background-color: $fondo;
+        padding-inline: 15px;
+        padding: 5px 5px 50px 5px;
+        border-radius: 15px;
+        margin: 5px;
+        h2, p{
+            padding: 20px;
+        }
+
+        .img-fluid{
+            padding: 20px;
+        }
+        @include tablet{
+            h2{
+                padding: 5px;
+                font-size: 22px;
+            }
+            p{
+                font-size:16px;
+            }
+        }
 }
