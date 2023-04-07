@@ -40,10 +40,8 @@ h1 {
   text-align: center;
 }
 @media (max-width: 766px) {
-  .navbar .colapse {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-end;
+  .navbar .collapse {
+    flex-direction: column;
     align-content: flex-end;
   }
 }
@@ -424,13 +422,12 @@ header {
 }
 .footer small {
   color: #5e765e;
-  padding: 15px 10px;
   font-size: 14px;
 }
 
 /* formulario*/
 form {
-  width: 300px;
+  width: 350px;
   padding: 16px;
   border-radius: 10px;
   margin: auto;
@@ -440,11 +437,11 @@ form {
 @media (max-width: 1024px) {
   form {
     font-size: 12px;
-    margin: 10%;
   }
 }
 @media (max-width: 766px) {
   form {
+    width: 80%;
     font-size: 12px;
     margin: 0px 5px 5px 15px;
     padding: 15px 15px 15px 20px;
@@ -495,6 +492,11 @@ textarea {
   /*resize: vertical | horizontal | none | both*/
   resize: none;
   display: block;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

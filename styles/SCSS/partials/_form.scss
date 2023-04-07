@@ -1,7 +1,7 @@
 
 /* formulario*/
 form{
-	width:300px;
+	width:350px;
 	padding:16px;
 	border-radius:10px;
 	margin: auto;
@@ -10,10 +10,11 @@ form{
     
     @include tablet{
         font-size: 12px;
-            margin: 10%;
+            
         }
     @include mobile{
-            font-size: 12px;
+        width: 80%;    
+        font-size: 12px;
             margin: 0px 5px 5px 15px;
             padding: 15px 15px 15px 20px;
             textarea{
@@ -65,4 +66,8 @@ textarea{
 	/*resize: vertical | horizontal | none | both*/
 	resize:none;
 	display:block;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
 }

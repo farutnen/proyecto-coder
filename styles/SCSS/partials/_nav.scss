@@ -7,10 +7,8 @@
     width: 100%;
     text-align: center;
     @include mobile{
-        .colapse{
-            display: flex;
-            flex-direction: column-reverse;
-            align-items: flex-end;
+        .collapse{
+            flex-direction: column;
             align-content: flex-end;
         }
         }
