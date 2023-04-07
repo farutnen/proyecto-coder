@@ -4,8 +4,9 @@
 
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=farutnen&show_icons=true&theme=gotham" alt="Nahuel Farut" />
 
+---
 
-<img src="https://img.shields.io/badge/28-revisiones-green">
+<img src="https://img.shields.io/badge/29-revisiones-green">
 
 
 ---
@@ -25,7 +26,7 @@ Preprocesador:
 
  <img src="https://github.com/farutnen/assets/blob/main/ilaria_Mesa%20de%20trabajo%201.jpg?raw=true">
  <img src="https://github.com/farutnen/assets/blob/main/ilaria-02.jpg?raw=true">
- <img src="https://github.com/farutnen/assets/blob/main/ilaria-03.jpg?raw=true">
+ <img src="https://github.com/farutnen/assets/blob/main/ilaria-03.png?raw=true">
  <img src="https://github.com/farutnen/assets/blob/main/ilaria-04.jpg?raw=true">
  <img src="https://github.com/farutnen/assets/blob/main/ilaria-05.jpg?raw=true">
  <img src="https://github.com/farutnen/assets/blob/main/ilaria-06.jpg?raw=true">
@@ -36,8 +37,6 @@ Preprocesador:
  <img src="https://github.com/farutnen/assets/blob/main/ilaria-11.jpg?raw=true">
  <img src="https://github.com/farutnen/assets/blob/main/ilaria-12.png?raw=true">
  <img src="https://github.com/farutnen/assets/blob/main/index.gif?raw=true">
- <img src="https://github.com/farutnen/assets/blob/main/destacado.gif?raw=true">
- <img src="">
 
 
 
