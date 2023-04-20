@@ -6,7 +6,7 @@
 
 ---
 
-<img src="https://img.shields.io/badge/29-revisiones-green">
+<img src="https://img.shields.io/badge/31-revisiones-green">
 
 
 ---
