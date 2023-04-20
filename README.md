@@ -24,19 +24,19 @@ Preprocesador:
 ---
 # DOCUMENTACIÓN
 
- <img src="https://github.com/farutnen/assets/blob/main/ilaria_Mesa%20de%20trabajo%201.jpg?raw=true">
- <img src="https://github.com/farutnen/assets/blob/main/ilaria-02.jpg?raw=true">
- <img src="https://github.com/farutnen/assets/blob/main/ilaria-03.png?raw=true">
- <img src="https://github.com/farutnen/assets/blob/main/ilaria-04.jpg?raw=true">
- <img src="https://github.com/farutnen/assets/blob/main/ilaria-05.jpg?raw=true">
- <img src="https://github.com/farutnen/assets/blob/main/ilaria-06.jpg?raw=true">
- <img src="https://github.com/farutnen/assets/blob/main/ilaria-07.jpg?raw=true">
- <img src="https://github.com/farutnen/assets/blob/main/ilaria-08.jpg?raw=true">
- <img src="https://github.com/farutnen/assets/blob/main/ilaria-09.jpg?raw=true">
- <img src="https://github.com/farutnen/assets/blob/main/ilaria-10.jpg?raw=true">
- <img src="https://github.com/farutnen/assets/blob/main/ilaria-11.jpg?raw=true">
- <img src="https://github.com/farutnen/assets/blob/main/ilaria-12.png?raw=true">
- <img src="https://github.com/farutnen/assets/blob/main/index.gif?raw=true">
+ <img src="https://github.com/farutnen/assets/blob/main/p%C3%A1gina-web-Ilaria/ilaria_Mesa%20de%20trabajo%201.jpg?raw=true">
+ <img src="https://github.com/farutnen/assets/blob/main/p%C3%A1gina-web-Ilaria/ilaria-02.jpg?raw=true">
+ <img src="https://github.com/farutnen/assets/blob/main/p%C3%A1gina-web-Ilaria/ilaria-03.png?raw=true">
+ <img src="https://github.com/farutnen/assets/blob/main/p%C3%A1gina-web-Ilaria/ilaria-04.jpg?raw=true">
+ <img src="https://github.com/farutnen/assets/blob/main/p%C3%A1gina-web-Ilaria/ilaria-05.jpg?raw=true">
+ <img src="https://github.com/farutnen/assets/blob/main/p%C3%A1gina-web-Ilaria/ilaria-06.jpg?raw=true">
+ <img src="https://github.com/farutnen/assets/blob/main/p%C3%A1gina-web-Ilaria/ilaria-07.jpg?raw=true">
+ <img src="https://github.com/farutnen/assets/blob/main/p%C3%A1gina-web-Ilaria/ilaria-08.jpg?raw=true">
+ <img src="https://github.com/farutnen/assets/blob/main/p%C3%A1gina-web-Ilaria/ilaria-09.jpg?raw=true">
+ <img src="https://github.com/farutnen/assets/blob/main/p%C3%A1gina-web-Ilaria/ilaria-10.jpg?raw=true">
+ <img src="https://github.com/farutnen/assets/blob/main/p%C3%A1gina-web-Ilaria/ilaria-11.jpg?raw=true">
+ <img src="https://github.com/farutnen/assets/blob/main/p%C3%A1gina-web-Ilaria/ilaria-12.png?raw=true">
+ <img src="https://github.com/farutnen/assets/blob/main/p%C3%A1gina-web-Ilaria/index.gif?raw=true">
 
 
 
